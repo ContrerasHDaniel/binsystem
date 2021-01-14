@@ -48,7 +48,7 @@ class App {
     listen() {
         return __awaiter(this, void 0, void 0, function* () {
             yield this.app.listen(this.app.get('port'));
-            console.log('Server on port: ', this.app.get('port'));
+            console.log('Server on port: ' + this.app.get('port') + "visita http://localhost:3080 para usar la app");
         });
     }
 }
